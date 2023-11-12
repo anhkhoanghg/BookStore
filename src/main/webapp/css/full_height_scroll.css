@@ -1,0 +1,18 @@
+.full-height {
+    max-height: 50vh;
+    height: auto;
+    padding: 3px;
+    overflow: auto;
+}
+.full-height-scroll {
+    height: 100%;
+    overflow: auto;
+    background: #fff;
+}
+th.sticky-header {
+    position: sticky;
+    z-index: 3;
+    top: 0px;
+    background: #ffffff;
+    margin: 0;
+}

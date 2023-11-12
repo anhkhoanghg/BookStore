@@ -1,0 +1,108 @@
+body {
+    position: absolute;
+    min-width: 100%;
+}
+
+td {
+    vertical-align: middle !important;
+}
+
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cart-info img {
+    width: 3.755rem;
+    height: 5rem;
+    margin-right: 0.625rem;
+}
+
+.quantity-custom {
+    width: 6.4rem;
+    position: relative;
+    margin: auto;
+}
+
+.number-custom::-webkit-outer-spin-button,
+.number-custom::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.number-custom {
+    width: 2.5rem;
+    height: 1.875rem;
+    padding: 0 4px;
+    text-align: center !important;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-left: none;
+    border-right: none;
+}
+
+.inc,
+.dec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem;
+    min-width: 1.875rem;
+    min-height: 1.875rem;
+    width: 1.875rem;
+    height: 1.875rem;
+    z-index: 1;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    cursor: pointer;
+    user-select: none;
+}
+
+.inc:hover,
+.dec:hover {
+    background-color: #eae8e4;
+}
+.check-out {
+    background-color: #f5f5f5;
+}
+.check-out-header {
+    background-color: #f5f5f5;
+}
+.form-control-custom {
+    height: calc(1.5em + 1rem + 2px);
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem
+}
+.option-size-custom {
+    font-size: 120%;
+}
+.icon-groups-custom i {
+    font-size: 1.875rem;
+}
+.calendar-custom {
+    border-bottom-left-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    font-size: .875rem !important;
+    height: calc(1.5em + 1rem + 1px);
+}
+.datepicker-days {
+    padding: 0 0.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Invoice css */
+.store-user {
+    padding-bottom: 25px;
+}
+.store-user p {
+    margin: 0;
+    font-weight: 600;
+}
+.store-user .address {
+    font-weight: 400;
+}
+.extra-info p span {
+    font-weight: 400;
+}

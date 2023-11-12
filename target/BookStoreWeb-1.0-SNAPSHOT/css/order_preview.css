@@ -1,0 +1,38 @@
+.main {
+    padding: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.75);
+}
+.payer-info {
+    width: 660px;
+}
+.recipient-info {
+    width: 440px;
+}
+.transaction-info {
+    width: 660px;
+}
+.seller-info {
+    width: 660px;
+}
+.buyer-info {
+    width: 660px;
+}
+.order-info {
+    width: 660px;
+}
+
+@media screen and (max-width: 414px) {
+    .details {
+        width: 90%;
+    }
+}
